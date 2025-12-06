@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghod Fada | Visual Designer</title>
+    
+    <!-- Official Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="assets/css/style.css">
+
+    
+</head>
+<body>
+
+    <header class="header" id="main-header">
+        <div class="container">
+            <a href="#" class="logo">GF.</a>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="hire-button">Hire Me</a>
+            </nav>
+            <!-- This will be mobile menu icon -->
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-hamburger"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu - This was missing in your original code -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="hire-button">Hire Me</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Crafting Visual <span class="text-highlight">Stories.</span>
+                </h1>
+                <p class="hero__subtitle">
+                    Advanced Graphics, Branding & UI/UX Design
+                </p>
+                <a href="#work" class="cta-button">View My Work</a>
+            </div>
+            <!-- Arrow down icon with animation -->
+            <div class="scroll-indicator" id="scroll-arrow">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </section>
+
+        <section id="work" class="projects-showcase">
+            <div class="container">
+                <h2 class="section-title">Selected Work</h2>
+                
+                <!-- Graphic Design Section -->
+                <div class="graphic-design">
+                    <h3 class="section-subtitle">Graphic Design</h3>
+                    <div class="projects-grid">
+                        <!-- Project Card 1 -->
+                        <div class="project-card">
+                            <div class="project-card__image-wrapper">
+                                <div class="project-card__image" style="background-image: url('assets/img/ankaraday.jpg');"></div>
+                            </div>
+                            <div class="project-card__overlay">
+                                <h3>Ankara Day Flyer</h3>
+                                <p>Advertisment & Identity</p>
+                            </div>
+                        </div>
+                        <!-- Project Card 2 -->
+                        <div class="project-card">
+                            <div class="project-card__image-wrapper">
+                                <div class="project-card__image" style="background-image: url('assets/img/carol\ party.jpg');"></div>
+                            </div>
+                            <div class="project-card__overlay">
+                                <h3>Party Flyer</h3>
+                                <p>Advertisment & Identity</p>
+                            </div>
+                        </div>
+                        <!-- Project Card 3 -->
+                        <div class="project-card">
+                            <div class="project-card__image-wrapper">
+                                <div class="project-card__image" style="background-image: url('assets/img/tiffanysspa.jpg');"></div>
+                            </div>
+                            <div class="project-card__overlay">
+                                <h3>Spa Flyer</h3>
+                                <p>Branding & Identity</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Behance Button for Graphic Design -->
+                    <div class="see-more-container">
+                        <a href="https://www.behance.net/ghodfada" target="_blank" class="see-more-button behance-button">
+                            <i class="fab fa-behance"></i>
+                            View Graphic Design on Behance
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Web Design Section -->
+                <div class="web-design">
+                    <h3 class="section-subtitle">Web Design</h3>
+                    <div class="projects-grid">
+                        <!-- Project Card 4 -->
+                        <div class="project-card">
+                            <div class="project-card__image-wrapper">
+                                <div class="project-card__image" style="background-image: url('assets/img/fynix1.png');"></div>
+                            </div>
+                            <div class="project-card__overlay">
+                                <h3>Fynix Trade</h3>
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <!-- Project Card 5 -->
+                        <div class="project-card">
+                            <div class="project-card__image-wrapper">
+                                <div class="project-card__image" style="background-image: url('assets/img/portfolio1.png');"></div>
+                            </div>
+                            <div class="project-card__overlay">
+                                <h3>Developers Portfolio</h3>
+                                <p>Portfolio</p>
+                            </div>
+                        </div>
+                        <!-- Project Card 6 -->
+                        <div class="project-card">
+                            <div class="project-card__image-wrapper">
+                                <div class="project-card__image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1415&q=80');"></div>
+                            </div>
+                            <div class="project-card__overlay">
+                                <h3>Minimal Space</h3>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- GitHub Button for Web Design -->
+                    <div class="see-more-container">
+                        <a href="https://github.com/TheGhodFada/" target="_blank" class="see-more-button github-button">
+                            <i class="fab fa-github"></i>
+                            View Web Design on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== ENHANCED ABOUT SECTION (NO IMAGE) ======== -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-container">
+                    <div class="about-content">
+                        <p class="about-subtitle">Nice to meet you!</p>
+                        <h2 class="about-title">I'm <span class="text-highlight">Ghod Fada</span></h2>
+                        <p class="about-text">
+                            I'm a passionate visual designer with over 5 years of experience creating stunning digital experiences. 
+                            My journey began with a fascination for how design can transform ideas into powerful visual narratives 
+                            that connect with audiences on an emotional level.
+                        </p>
+                        <p class="about-text">
+                            I specialize in brand identity, UI/UX design, and digital illustration. My approach combines 
+                            strategic thinking with creative execution to deliver designs that not only look beautiful but also 
+                            drive results for businesses and create memorable experiences for users.
+                        </p>
+                        
+                        <div class="skills-container">
+                            <h3 class="skills-title">My Expertise</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <i class="fas fa-palette"></i>
+                                    <span>Brand Identity</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>UI/UX Design</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                    <span>Illustration</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Frontend Dev</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-camera"></i>
+                                    <span>Photography</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>Motion Graphics</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-buttons">
+                            <a href="#" class="resume-button">
+                                <i class="fas fa-download"></i>
+                                Download Resume
+                            </a>
+                            <a href="#contact" class="contact-button-small">
+                                <i class="fas fa-envelope"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== ENHANCED CLIENTS SECTION WITH DIMMED WHITE LOGOS ======== -->
+        <section id="clients" class="clients">
+            <div class="container clients-container">
+                <h2 class="section-title">Trusted By</h2>
+                
+                <div class="clients-grid">
+                    <div class="client-logo-container">
+                        <img src="assets/img/logo1.jpg" alt="Dumi-Kitchen" class="client-logo">
+                    </div>
+                    <div class="client-logo-container">
+                        <img src="assets/img/logo2.jpg" alt="Grasy-world" class="client-logo">
+                    </div>
+                    <div class="client-logo-container">
+                        <img src="assets/img/logo3.jpg" alt="TgDan-Media" class="client-logo">
+                    </div>
+                    <div class="client-logo-container">
+                        <img src="assets/img/logo4.jpg" alt="DXL-Media" class="client-logo">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== ENHANCED CONTACT SECTION ======== -->
+        <section id="contact" class="contact">
+            <div class="container contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-content">
+                            <div class="contact-item-label">Email</div>
+                            <div class="contact-item-value">
+                                <a href="mailto:ghodfada15@gmail.com">ghodfada15@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-item-content">
+                            <div class="contact-item-label">Phone</div>
+                            <div class="contact-item-value">+234 9037-288-167</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-item-content">
+                            <div class="contact-item-label">Address</div>
+                            <div class="contact-item-value">Conraws Estate, Emene, Enugu</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-item-content">
+                            <div class="contact-item-label">Available</div>
+                            <div class="contact-item-value">Mon-Fri, 9AM-6PM WAT</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Connect With Me</h4>
+                        <div class="contact-social-links">
+                            <a href="https://x.com/theghodfada" target="_blank" aria-label="Twitter">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/TheGhodFada/" target="_blank" aria-label="Github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.behance.net/ghodfada" target="_blank" aria-label="Behance">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://www.instagram.com/theghodfada/" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3>Send Me a Message</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======== ENHANCED VISUALLY APPEALING FOOTER ======== -->
+<!-- ======== ENHANCED VISUALLY APPEALING FOOTER ======== -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- About Column -->
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <a href="#" class="logo">GF.</a>
+                    </div>
+                    <p class="footer-description">
+                        Crafting visual stories through innovative design solutions that 
+                        captivate audiences and drive meaningful connections.
+                    </p>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ghodfada15@gmail.com</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+234 9037-288-167</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Links Column -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#work">Portfolio</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <!-- Services Column -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Brand Identity</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Digital Illustration</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Motion Graphics</a></li>
+                        <li><a href="#">Photography</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Stay Updated</h3>
+                    <p class="footer-newsletter-text">
+                        Subscribe to my newsletter for design tips and latest projects.
+                    </p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div class="footer-social">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links">
+                            <a href="https://x.com/theghodfada" target="_blank" aria-label="X (Twitter)" class="social-link">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.behance.net/ghodfada" target="_blank" aria-label="Behance" class="social-link">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://github.com/TheGhodFada/" target="_blank" aria-label="GitHub" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="LinkedIn" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/theghodfada/" target="_blank" aria-label="Instagram" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-content">
+                <p>&copy; 2025 Ghod Fada. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</footer>
+
+    <!-- Notification Toast -->
+    <div id="notification-toast" class="notification-toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="notification-message">Message sent successfully!</span>
+    </div>
+
+    <!-- ======== ENHANCED JAVASCRIPT FOR HEADER SCROLL, MOBILE MENU & CONTACT FORM ======== -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
